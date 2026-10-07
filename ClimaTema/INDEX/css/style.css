@@ -1,0 +1,41 @@
+
+
+.americana {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.americana h1 strong {
+    color: #08265e;
+ 
+}
+
+.americana h1 .SP {
+    color: #8d1717;
+ 
+}
+
+.carousel-item img {
+    border: 2px solid #45157c;
+    border-radius: 45px;
+}
+
+
+
+.descricao {
+    color: #3B2418;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: normal;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.d-block.imagem-americana {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 88%;
+}
