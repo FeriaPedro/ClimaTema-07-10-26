@@ -31,31 +31,37 @@
     padding: 0 16px;
 }
 
-.card {
-    overflow: hidden;
-    border: 1px solid #dee2e6;
-    border-radius: 0.5rem;
+.card{
     background-color: #f8f9fa;
-}
-
-.card-foto {
-    min-height: 200px;
-    height: 200px;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 100%;
+    display: flex  
+   
 }
 
 .card-title {
-    color: #8F2635;
+color: #8F2635;
     font-size: 20px;
     text-align: center;
     line-height: 1.5;
-    font-weight: 600;
+    font-weight: semibold;
+    max-width: 1000px;
+    margin: 8px auto;
 }
+
 
 .card-text {
     color: #272323da;
     font-size: 16px;
     text-align: center;
     line-height: 1.5;
+    font-weight: normal;
+    max-width: 1000px;
+    margin: 8px auto;
 }
 
 .mapa-container {
@@ -70,6 +76,7 @@
     margin: 0 auto;
     border: 0;
     border-radius: 32px;
+    
 }
 
 @media (max-width: 576px) {
@@ -82,4 +89,10 @@
         min-height: 200px;
         border-radius: 28px;
     }
+}
+
+.container.text-center{
+ display: flex;
+  justify-content: center;
+  align-items: center;
 }
