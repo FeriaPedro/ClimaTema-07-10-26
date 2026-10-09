@@ -1,0 +1,30 @@
+.rj{
+    color: #00A6B2;
+    font-size: 50px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: semibold;
+    max-width: 1000px;
+    margin: 8px auto;
+}
+
+.foto-destaque {
+    min-height: 260px;
+    max-height: 520px;
+    width: min(100% - 32px, 1200px);
+    margin: 8px auto;
+    border: 5px solid #fcfcfc;
+    border-radius: 48px;
+    display: flex;
+}
+
+.descricao {
+    color: #272323da;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: normal;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 16px;
+}
