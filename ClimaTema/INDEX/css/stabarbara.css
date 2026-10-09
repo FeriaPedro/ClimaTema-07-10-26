@@ -1,0 +1,85 @@
+.santabarbara{
+    color: #8F2635;
+    font-size: 50px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bold;
+    max-width: 1000px;
+    margin: 8px auto;
+}
+
+
+.foto-destaque {
+    min-height: 260px;
+    max-height: 520px;
+    width: min(100% - 32px, 1200px);
+    margin: 8px auto;
+    border: 5px solid #fcfcfc;
+    border-radius: 48px;
+    display: flex;
+}
+
+
+.descricao {
+    color: #272323da;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: normal;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 16px;
+}
+
+.card {
+    overflow: hidden;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+}
+
+.card-foto {
+    min-height: 200px;
+    height: 200px;
+}
+
+.card-title {
+    color: #8F2635;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.card-text {
+    color: #272323da;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.mapa-container {
+    padding: 32px 16px;
+}
+
+.mapa {
+    display: block;
+    width: min(100%, 900px);
+    aspect-ratio: 16 / 9;
+    height: auto;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 32px;
+}
+
+@media (max-width: 576px) {
+    .santabarbara {
+        font-size: 36px;
+        padding: 0 12px;
+    }
+
+    .foto-destaque {
+        min-height: 200px;
+        border-radius: 28px;
+    }
+}
