@@ -42,7 +42,11 @@
 }
 
 .card-title {
+<<<<<<< HEAD
 color: #8F2635;
+=======
+color: #00A6B2;
+>>>>>>> 332d479815287dae2aac64d59896671be354d4a7
     font-size: 20px;
     text-align: center;
     line-height: 1.5;
@@ -51,7 +55,10 @@ color: #8F2635;
     margin: 8px auto;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 332d479815287dae2aac64d59896671be354d4a7
 .card-text {
     color: #272323da;
     font-size: 16px;
